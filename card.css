@@ -1,0 +1,76 @@
+* {
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: montserrat;
+    src: url(static/Montserrat-Bold.ttf);
+}
+
+.screen-card {
+    width: 35%;
+    font-family: montserrat;
+    padding-left: 3%;
+    padding-top: 1%;
+}
+
+table,
+tr {
+    width: 100%;
+    height: 45px;
+    border: 2px solid black;
+    border-collapse: collapse;
+    padding: 10px;
+    text-align: center;
+}
+
+td {
+    border: 3px solid black;
+}
+
+table {
+    margin-bottom: 4%;
+}
+
+button {
+    background-color: black;
+    cursor: pointer;
+    width: 100%;
+    height: 40px;
+    border: none;
+    color: white;
+}
+
+body {
+    display: flex;
+}
+
+.tnt-card {
+    font-family: montserrat;
+    width: 65%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#botaao {
+    display: flex;
+    justify-content: center;
+    width: 37vw;
+}
+
+#carouselExampleIndicators {
+    margin-bottom: 3%;
+}
+
+#bot1 {
+    background-color: black;
+    color: white;
+}
+
+#bot2 {
+    border: 2px solid black;
+    background-color: white;
+    color: black;
+}
