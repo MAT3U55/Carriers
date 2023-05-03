@@ -4,7 +4,7 @@
 
 @font-face {
     font-family: montserrat;
-    src: url(static/Montserrat-Bold.ttf);
+    src: url(montserrat/static/Montserrat-Bold.ttf);
 }
 
 .screen-card {
@@ -27,6 +27,8 @@ tr {
 td {
     border: 3px solid black;
 }
+
+
 
 table {
     margin-bottom: 4%;
@@ -58,6 +60,7 @@ body {
     display: flex;
     justify-content: center;
     width: 37vw;
+    
 }
 
 #carouselExampleIndicators {
@@ -65,12 +68,24 @@ body {
 }
 
 #bot1 {
-    background-color: black;
-    color: white;
+    margin-right: 1px;
+    background-color: white;
+    color: black;
+    border: 3px solid black;
 }
 
+
+button#bot1:focus {
+    background-color: rgb(201, 197, 197);
+}
+
+button#bot2:focus {
+    background-color: rgb(201, 197, 197);
+}
+
+
 #bot2 {
-    border: 2px solid black;
+    border: 3px solid black;
     background-color: white;
     color: black;
 }
